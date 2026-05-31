@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gameworld Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="store-grid-container">
+        
+        <nav class="nav-section">
+            <div class="nav-logo">
+                <i class="fa-solid fa-car-side"></i>
+                <span>gameworld store</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="menu-hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <aside class="filter-section">
+            <div class="filter-group">
+                <label for="sort-price">Ordenar Por:</label>
+                <select id="sort-price">
+                    <option value="price">Precio</option>
+                    <option value="model">Modelo</option>
+                </select>
+            </div>
+        </aside>
+
+        <main class="main-catalog-section">
+            <div class="products-grid">
+                
+                <article class="car-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/img/ps5 slim.webp" alt="ps5 slim">
+                    </div>
+                    <div class="card-info">
+                        <h3>Consola Playstation 5 Slim $579.990</h3>
+                        <button class="btn-more">Ver más</button>
+                    </div>
+                </article>
+
+                <article class="car-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/img/steam deck.webp" alt="Model: steam deck">
+                    </div>
+                    <div class="card-info">
+                        <h3>Consola Valve Steam Deck 64GB - Sniper $499.990</h3>
+                        <button class="btn-more">Ver más</button>
+                    </div>
+                </article>
+
+                <article class="car-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/img/xbox series s.webp" alt="xbox series s">
+                    </div>
+                    <div class="card-info">
+                        <h3>Consola XBOX Series S 1 TB SSD Blanco $559.990</h3>
+                        <button class="btn-more">Ver más</button>
+                    </div>
+                </article>
+
+                <article class="car-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/img/switch 2.webp" alt="nintendo switch 2">
+                    </div>
+                    <div class="card-info">
+                        <h3>Consola Nintendo Switch 2 + Pokemon Z $604.990</h3>
+                        <button class="btn-more">Ver más</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="pagination-container">
+                <span class="page-arrow">&laquo;</span>
+                <span class="page-num active">1</span>
+                <span class="page-num">2</span>
+                <span class="page-num">3</span>
+                <span class="page-arrow">&raquo;</span>
+            </div>
+        </main>
+
+        <footer class="footer-section">
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-text">Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
